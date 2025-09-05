@@ -31,13 +31,7 @@ This is the core of the lab coursework, structured by week:
 📁 weeks/
 ├── week01\_bash\_intro/
 ├── week02\_python\_core/
-├── week03\_pandas\_numpy/
-├── week04\_sql\_basics/
-├── week05\_spark\_intro/
-├── week06\_spark\_transformations/
-├── week07\_spark\_ml/
-├── week08\_spark\_streaming/
-
+....
 ```
 
 Each week contains:
