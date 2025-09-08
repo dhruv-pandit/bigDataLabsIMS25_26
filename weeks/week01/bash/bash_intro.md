@@ -30,10 +30,6 @@ The terminal application on macOS looks and operates slightly differently compar
 On macOS, the default shell is **zsh (z shell)**.  
 You will need to switch to **bash** for this week.
 
-```
-wsl ls -la
-wsl echo "Hello from WSL"
-```
 ---
 
 ### Switching to Bash on macOS
@@ -51,6 +47,25 @@ exec zsh
 For a permanent change, follow [this guide](https://stackoverflow.com/questions/77052638/changing-default-shell-from-zsh-to-bash-on-macos-catalina-and-beyond).  
 However, keeping your terminal on zsh may be better.
 
+---
+
+### Are you On Windows? 
+
+- Windows does not support BASH natively through the powershell and terminal, and thus yoou need to install the Windows Subsystem for Linux. Fortunately, this can be done with a single line of code. 
+- Open PowerShell in administrator mode by right-clicking and selecting "Run as administrator", enter the wsl --install command, then restart your machine.
+```powershell
+wsl --install
+```
+- Click Yes/Agree/Accept on any Windows pop-up.
+---
+### Are you On Windows? 
+- Once installed, restart your machine, and open Ubuntu from the Start Menu. This gives you a full Bash shell, exactly like you'd have on a Linux machine.
+- Otherwise you can run individual Bash commands from PowerShell or CMD using:
+```bash
+wsl ls -la
+wsl echo "Hello from WSL"
+```
+- The `wsl` command passes the instruction to your default WSL distro and executes it in a Bash shell.
 ---
 
 ## What is Bash?
