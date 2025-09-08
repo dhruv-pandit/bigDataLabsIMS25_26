@@ -35,6 +35,12 @@ paginate: true
 - A working computer/laptop. 
 ---
 
+## GitHub
+
+- The GitHub repository for this course can be found at https://github.com/dhruv-pandit/bigDataLabsIMS25_26. Here, we will upload the notebooks for the weeks early, along with resources for the course and materials for the project. 
+- Most important- **we will only upload solutions to this repository.  Notebooks and datasets required for the labs will still be uploaded to the course Moodle.**
+---
+
 ## Evaluation
 
 - A project contributing 50% of the final grade is due in December (exact date and guidelines to be announced).
