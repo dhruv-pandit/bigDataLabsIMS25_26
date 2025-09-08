@@ -30,6 +30,10 @@ The terminal application on macOS looks and operates slightly differently compar
 On macOS, the default shell is **zsh (z shell)**.  
 You will need to switch to **bash** for this week.
 
+```
+wsl ls -la
+wsl echo "Hello from WSL"
+```
 ---
 
 ### Switching to Bash on macOS
