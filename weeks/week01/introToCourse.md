@@ -12,7 +12,7 @@ paginate: true
 
 ## Instructors
 
-| Instructor          | Image            | Email                     |
+| Instructor          |             | Email                     |
 |----------------------|------------------|---------------------------|
 | Niclas F. Sturm      | ![alt text](image-1.png) | nsturm@novaims.unl.pt     |
 | Dhruv Akshay Pandit  | ![alt text](image-2.png) | dpandit@novaims.unl.pt    |
