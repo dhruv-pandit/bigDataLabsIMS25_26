@@ -30,9 +30,14 @@ The terminal application on macOS looks and operates slightly differently compar
 On macOS, the default shell is **zsh (z shell)**.  
 You will need to switch to **bash** for this week.
 
+--- 
+
+For using Unix-like shell commands on Windows, you can use the following steps outline [in the docs](https://learn.microsoft.com/en-us/windows/wsl/install) to install the WSL (Windows subsystem for Linux).
+
+To check that the WSL has been correctly installed, run a simple ``Hello world`` programme. 
+
 ```
-wsl ls -la
-wsl echo "Hello from WSL"
+wsl echo "Hello, World!"
 ```
 ---
 
@@ -345,9 +350,19 @@ As a rule of thumb, quote variables (`"$var"`) and paths unless you specifically
 1. First; create a text file called JudoMedalists.txt. What command would you use for this? 
    1. Check whether it has been created. What command would you use for this? 
 2. Once you have verfied the file, run the below command to pull the list of 2016 olympic judo medalists to this file by copying the following to the shell:
+
 ```bash
 curl -sS "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_judo?action=raw" | grep -Eoi "flagIOCmedalist\|\[\[(.+)\]\]" | cut -c"19-" | cut -d \] -f 1 | cut -d \| -f 2
 ```
+
+Since this command contains some more advanced commands, here is a breakdown of the command constituents:
+
+1. ``curl``: Downloads the raw markup of the Wikipedia site in silent mode (``-s``)
+2. ``grep``: Case-insensitive matching of the expression after (enabled by ``-E``)
+3. ``cut``: Removes the first 18 characters of each line
+4. ``cut``: Splits the line at ``]`` and returns the first field
+5. ``cut``: Splits the line at ``|`` and returns the second field
+
 ---
 
 ### Some More BASH Commands - Judo
