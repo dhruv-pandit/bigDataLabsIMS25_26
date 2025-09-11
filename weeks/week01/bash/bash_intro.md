@@ -370,6 +370,7 @@ As a rule of thumb, quote variables (`"$var"`) and paths unless you specifically
    1. Check whether it has been created. What command would you use for this? 
 2. Once you have verfied the file, run the below command to pull the list of 2016 olympic judo medalists to this file by copying the following to the shell:
 
+---
 ```bash
 curl -sS "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_judo?action=raw" | grep -Eoi "flagIOCmedalist\|\[\[(.+)\]\]" | cut -c"19-" | cut -d \] -f 1 | cut -d \| -f 2
 ```
