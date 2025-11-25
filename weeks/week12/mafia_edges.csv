@@ -1,0 +1,286 @@
+src,dst,relation_type,weight
+1,2,Asked for Meeting With,1
+1,3,Called,2
+1,4,Sent Money,1
+2,1,Threatened,1
+3,2,Called,3
+3,4,Asked for Meeting With,2
+4,1,Asked for Meeting With,1
+4,3,Threatened,1
+5,6,Asked for Meeting With,1
+5,7,Asked for Meeting With,1
+6,5,Asked for Meeting With,2
+6,8,Called,1
+7,5,Asked for Meeting With,1
+7,8,Called,2
+8,6,Called,2
+8,7,Asked for Meeting With,1
+9,10,Sent Money,1
+9,11,Called,2
+9,12,Asked for Meeting With,1
+10,9,Threatened,1
+11,9,Called,3
+11,12,Asked for Meeting With,2
+12,9,Asked for Meeting With,1
+12,11,Threatened,1
+13,14,Sent Money,1
+13,15,Asked for Meeting With,2
+13,16,Asked for Meeting With,1
+14,13,Asked for Meeting With,1
+14,15,Called,1
+15,13,Asked for Meeting With,1
+15,14,Asked for Meeting With,1
+15,16,Called,2
+16,13,Asked for Meeting With,1
+16,15,Called,1
+17,18,Asked for Meeting With,1
+17,19,Asked for Meeting With,1
+18,17,Asked for Meeting With,2
+18,20,Asked for Meeting With,1
+19,17,Asked for Meeting With,1
+19,20,Asked for Meeting With,2
+20,18,Asked for Meeting With,1
+20,19,Asked for Meeting With,1
+21,22,Called,2
+21,23,Asked for Meeting With,1
+21,24,Asked for Meeting With,1
+22,21,Asked for Meeting With,2
+22,23,Sent Money,1
+23,21,Asked for Meeting With,1
+23,22,Asked for Meeting With,1
+24,21,Asked for Meeting With,1
+24,22,Asked for Meeting With,2
+25,26,Asked for Meeting With,1
+25,27,Asked for Meeting With,1
+25,28,Called,1
+26,25,Asked for Meeting With,2
+26,27,Called,1
+27,25,Asked for Meeting With,1
+27,26,Asked for Meeting With,1
+27,28,Called,2
+28,25,Called,1
+28,27,Asked for Meeting With,1
+29,30,Asked for Meeting With,1
+29,31,Called,2
+29,32,Asked for Meeting With,1
+30,29,Threatened,1
+31,29,Called,3
+31,32,Asked for Meeting With,2
+32,29,Asked for Meeting With,1
+32,31,Threatened,1
+33,34,Asked for Meeting With,1
+33,35,Asked for Meeting With,1
+33,36,Asked for Meeting With,1
+34,33,Asked for Meeting With,2
+34,35,Sent Money,1
+35,33,Asked for Meeting With,1
+35,34,Asked for Meeting With,1
+35,36,Asked for Meeting With,2
+36,33,Asked for Meeting With,1
+36,35,Asked for Meeting With,1
+37,38,Asked for Meeting With,1
+37,39,Asked for Meeting With,1
+37,40,Called,1
+38,37,Asked for Meeting With,2
+38,39,Asked for Meeting With,1
+39,37,Asked for Meeting With,1
+39,38,Asked for Meeting With,1
+39,40,Asked for Meeting With,2
+40,37,Asked for Meeting With,1
+40,38,Called,1
+41,42,Asked for Meeting With,1
+41,43,Asked for Meeting With,1
+41,44,Asked for Meeting With,1
+42,41,Asked for Meeting With,2
+42,43,Sent Money,1
+43,41,Asked for Meeting With,1
+43,42,Asked for Meeting With,1
+43,44,Asked for Meeting With,2
+44,41,Asked for Meeting With,1
+44,42,Asked for Meeting With,1
+45,46,Asked for Meeting With,1
+45,47,Asked for Meeting With,1
+45,48,Called,1
+46,45,Asked for Meeting With,2
+46,47,Asked for Meeting With,1
+47,45,Asked for Meeting With,1
+47,46,Asked for Meeting With,1
+47,48,Asked for Meeting With,2
+48,45,Called,1
+48,46,Asked for Meeting With,1
+48,47,Asked for Meeting With,1
+49,50,Asked for Meeting With,1
+49,51,Asked for Meeting With,1
+49,52,Asked for Meeting With,1
+50,49,Asked for Meeting With,2
+50,51,Called,1
+51,49,Asked for Meeting With,1
+51,50,Asked for Meeting With,1
+51,52,Asked for Meeting With,2
+52,49,Asked for Meeting With,1
+52,51,Asked for Meeting With,1
+52,50,Asked for Meeting With,1
+53,54,Asked for Meeting With,1
+53,55,Asked for Meeting With,1
+53,56,Asked for Meeting With,1
+54,53,Asked for Meeting With,2
+54,55,Sent Money,1
+55,53,Asked for Meeting With,1
+55,54,Asked for Meeting With,1
+55,56,Asked for Meeting With,2
+56,53,Asked for Meeting With,1
+56,55,Asked for Meeting With,1
+1,5,Sent Money,3
+1,9,Sent Money,2
+1,13,Sent Money,1
+1,17,Sent Money,2
+1,21,Sent Money,1
+1,25,Sent Money,3
+1,29,Sent Money,2
+1,33,Sent Money,1
+1,37,Sent Money,2
+1,41,Sent Money,1
+1,45,Sent Money,3
+1,49,Sent Money,2
+1,53,Sent Money,1
+2,6,Sent Money,3
+2,10,Sent Money,2
+2,14,Sent Money,1
+2,18,Sent Money,2
+2,22,Sent Money,1
+2,26,Sent Money,3
+2,30,Sent Money,2
+2,34,Sent Money,1
+2,38,Sent Money,2
+2,42,Sent Money,1
+2,46,Sent Money,3
+2,50,Sent Money,2
+2,54,Sent Money,1
+3,7,Sent Money,3
+3,11,Sent Money,2
+3,15,Sent Money,1
+3,19,Sent Money,2
+3,23,Sent Money,1
+3,27,Sent Money,3
+3,31,Sent Money,2
+3,35,Sent Money,1
+3,39,Sent Money,2
+3,43,Sent Money,1
+3,47,Sent Money,3
+3,51,Sent Money,2
+3,55,Sent Money,1
+4,8,Sent Money,3
+4,12,Sent Money,2
+4,16,Sent Money,1
+4,20,Sent Money,2
+4,24,Sent Money,1
+4,28,Sent Money,3
+4,32,Sent Money,2
+4,36,Sent Money,1
+4,40,Sent Money,2
+4,44,Sent Money,1
+4,48,Sent Money,3
+4,52,Sent Money,2
+4,56,Sent Money,1
+5,9,Called,2
+5,13,Called,1
+5,17,Called,2
+5,21,Called,1
+5,25,Called,2
+5,29,Called,1
+5,33,Called,2
+5,37,Called,1
+5,41,Called,2
+5,45,Called,1
+5,49,Called,2
+5,53,Called,1
+6,10,Called,2
+6,14,Called,1
+6,18,Called,2
+6,22,Called,1
+6,26,Called,2
+6,30,Called,1
+6,34,Called,2
+6,38,Called,1
+6,42,Called,2
+6,46,Called,1
+6,50,Called,2
+6,54,Called,1
+7,11,Called,2
+7,15,Called,1
+7,19,Called,2
+7,23,Called,1
+7,27,Called,2
+7,31,Called,1
+7,35,Called,2
+7,39,Called,1
+7,43,Called,2
+7,47,Called,1
+7,51,Called,2
+7,55,Called,1
+8,12,Called,2
+8,16,Called,1
+8,20,Called,2
+8,24,Called,1
+8,28,Called,2
+8,32,Called,1
+8,36,Called,2
+8,40,Called,1
+8,44,Called,2
+8,48,Called,1
+8,52,Called,2
+8,56,Called,1
+9,13,Asked for Meeting With,1
+9,17,Asked for Meeting With,2
+9,21,Asked for Meeting With,1
+9,25,Asked for Meeting With,2
+9,29,Asked for Meeting With,1
+9,33,Asked for Meeting With,2
+9,37,Asked for Meeting With,1
+9,41,Asked for Meeting With,2
+9,45,Asked for Meeting With,1
+9,49,Asked for Meeting With,2
+9,53,Asked for Meeting With,1
+10,14,Asked for Meeting With,1
+10,18,Asked for Meeting With,2
+10,22,Asked for Meeting With,1
+10,26,Asked for Meeting With,2
+10,30,Asked for Meeting With,1
+10,34,Asked for Meeting With,2
+10,38,Asked for Meeting With,1
+10,42,Asked for Meeting With,2
+10,46,Asked for Meeting With,1
+10,50,Asked for Meeting With,2
+10,54,Asked for Meeting With,1
+11,15,Asked for Meeting With,1
+11,19,Asked for Meeting With,2
+11,23,Asked for Meeting With,1
+11,27,Asked for Meeting With,2
+11,31,Asked for Meeting With,1
+11,35,Asked for Meeting With,2
+11,39,Asked for Meeting With,1
+11,43,Asked for Meeting With,2
+11,47,Asked for Meeting With,1
+11,51,Asked for Meeting With,2
+11,55,Asked for Meeting With,1
+12,16,Asked for Meeting With,1
+12,20,Asked for Meeting With,2
+12,24,Asked for Meeting With,1
+12,28,Asked for Meeting With,2
+12,32,Asked for Meeting With,1
+12,36,Asked for Meeting With,2
+12,40,Asked for Meeting With,1
+12,44,Asked for Meeting With,2
+12,48,Asked for Meeting With,1
+12,52,Asked for Meeting With,2
+12,56,Asked for Meeting With,1
+13,17,Threatened,2
+13,21,Sent Money,1
+13,25,Asked for Meeting With,3
+13,29,Called,2
+13,33,Sent Money,1
+13,37,Asked for Meeting With,2
+13,41,Called,1
+13,45,Sent Money,3
+13,49,Asked for Meeting With,2
+13,53,Called,1
